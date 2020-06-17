@@ -3,7 +3,16 @@ Estilo de citação em Citation Style Language (CSL), atualizado conforme padrõ
 
 O estilo é desenvolvido e atualizado por mim mesmo, [@virgilinojuca](https://github.com/virgilinojuca), para uso pessoal, portanto com muitas decisões de gosto próprio. Provavelmente outros encontrarão limitações (mais sobre isso abaixo), mas contribuições são bem vindas.
 
-## Destaques
+Para edição do estilo, utilizo o utilitário online [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/).
+
+## Sumário
+
+* [Diferenciais](#diferenciais)
+* [Limitações](#limitações)
+* [Download](#download)
+* [Lista de tarefas](#lista de tarefas)
+
+## Diferenciais
 
 * __Estilo refeito quase do zero conforme a norma de 2018:__ Não há mais `<>` nos endereços de sites, e termos em latim ("_et al._", "_In_", "_S. l._", "_s. d._"...) estão em itálico.
 
@@ -44,3 +53,9 @@ Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu 
 * Quando o autor é um município ou estado homônimo, não dá para deixar em caixa baixa a especificação entre parênteses. Ex: "RIO DE JANEIRO (Município)".
 
 *  Até poderia fazer, mas, no caso de patentes, foi decisão minha não mudar o separador de ponto por vírgula entre nome, data de depósito e concessão, quando há URL. Me pareceu mais erro na norma do que outra coisa, por isso mantive o ponto.
+
+## Download
+O arquivo pode ser baixados nos [releases](releases).
+
+## Lista de tarefas
+* Criar uma wiki com instruções detalhadas para diferente tipos de documentos e situações.
