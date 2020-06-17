@@ -10,7 +10,7 @@ Para edição do estilo, utilizo o utilitário online [Visual CSL Editor](https:
 * [Diferenciais](#diferenciais)
 * [Limitações](#limitações)
 * [Download](#download)
-* [Lista de tarefas](#lista de tarefas)
+* [Lista de tarefas](#lista-de-tarefas)
 
 ## Diferenciais
 
@@ -55,7 +55,7 @@ Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu 
 *  Até poderia fazer, mas, no caso de patentes, foi decisão minha não mudar o separador de ponto por vírgula entre nome, data de depósito e concessão, quando há URL. Me pareceu mais erro na norma do que outra coisa, por isso mantive o ponto.
 
 ## Download
-O arquivo pode ser baixados nos [releases](releases).
+O arquivo pode ser baixado nos [releases](https://github.com/virgilinojuca/csl-abnt/releases).
 
 ## Lista de tarefas
 * Criar uma wiki com instruções detalhadas para diferente tipos de documentos e situações.
