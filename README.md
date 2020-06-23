@@ -30,9 +30,11 @@ Para edição do estilo, utilizo o utilitário online [Visual CSL Editor](https:
 
 ## Limitações
 
-Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu gosto, que pode não agradar a todos os usuários. Além disso, como não trabalho com certos tipos de documentos (por exemplo, legislação), não cheguei a detalhar como eles devam ser exibidos. Outros problemas são originados das limitações da própria Citation Style Language (CSL), podendo ser contornadas com edição manual da bibliografia gerada no Word.
+Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu gosto, que pode não agradar a todos os usuários, principalmente porque podem atrapalhar na hora de trabalhar com outros estilos de citação. Além disso, como eu mesmo não trabalho com certos tipos de documentos (por exemplo, legislação), não cheguei a detalhar como eles devam ser exibidos. Outros problemas são originados das limitações da própria Citation Style Language (CSL), podendo ser contornadas com edição manual da bibliografia gerada no Word.
 
-* A mais visível: subtítulos deveriam ficar em peso normal, mas ficam em negrito, pois são inseridos junto com o título. Isso é uma limitação da CSL, que não tem campo próprio para subtítulo ou algum tipo de suporte a regex. Até pensei em configurar o estilo de maneira que algum outro campo fosse usado como subtítulo, como o `title-short`, mas conclui que seria muita gambiarra. Preferi usar o `title-short` para outra coisa (ver limitação seguinte). Nesse caso, após geração da bibliografia no Word, o usuário, se fizer muita questão, deve remover o negrito manualmente de todos os subtítulos.
+* O problema mais evidente: subtítulos deveriam ficar em peso normal, mas ficam em negrito, pois são inseridos junto com o título. Isso é uma limitação da CSL, que não tem campo próprio para subtítulo ou algum tipo de suporte a regex. ([Mas parece que isso pode estar com os dias contados](https://github.com/citation-style-language/schema/pull/203). Quando veremos a atualização no Zotero e poderemos atualizar este estilo, não sei.)
+
+	Até pensei em configurar o estilo de maneira que algum outro campo fosse usado como subtítulo, como o `title-short`, mas concluí que seria uma gambiarra que não valeria a pena. Preferi usar o `title-short` para outra coisa (ver limitação seguinte). Por isso, após a geração da bibliografia no Word, o usuário, se fizer muita questão, deve remover o negrito manualmente de todos os subtítulos.
 
 * Quando não há autor e o título deve ser usado como autor, a primeira palavra do título deve ser digitada manualmente em caixa alta. Essa palavra deve ser repetida no campo `title-short`. __Exemplo 1__ do item __8.1.4__ da norma (p. 39):
 
