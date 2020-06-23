@@ -59,6 +59,6 @@ O arquivo pode ser baixado nos [releases](https://github.com/virgilinojuca/csl-a
 
 ## Lista de tarefas
 * Criar uma wiki com instruções detalhadas para diferente tipos de documentos e situações.
-	* Verificar a tradução dos termos no Zotero em português para colocar na documentação.
+	* ~~[Verificar a tradução dos termos no Zotero em português para colocar na documentação](https://github.com/virgilinojuca/csl-abnt/wiki/Equival%C3%AAncia-de-categorias-de-documentos)~~.
 * Testar cada exemplo da norma, para abranger todos os tipos de referências ainda não suportados.
 	* Decidir aplicação de cada categoria do Zotero.
