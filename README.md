@@ -49,8 +49,6 @@ Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu 
 	O texto "Entrevistado: Mitchekk Baker" teria que ficar inserido dentro do título.
 	
 	> __Um comentário__: essa parte é contraditória, pois a norma diz que, no caso de entrevistas, o entrevistado é que deve ser colocado como autor, conforme o item __8.1.1.9__.
-	
-* Não tem como fazer referência para __parte__ de trabalho acadêmico. Limitação do CSL, mas que talvez até pudesse ser contornada com citações do tipo "capítulo de livro".
 
 * Quando o autor é um município ou estado homônimo, não dá para deixar em caixa baixa a especificação entre parênteses. Ex: "RIO DE JANEIRO (Município)".
 
@@ -60,7 +58,7 @@ Como o estilo é desenvolvido para uso pessoal, tomei decisões baseadas no meu 
 O arquivo pode ser baixado nos [releases](https://github.com/virgilinojuca/csl-abnt/releases), pode então ser adicionado ao Zotero pela janela de preferências.
 
 ## Lista de tarefas
-* Criar uma wiki com instruções detalhadas para diferente tipos de documentos e situações.
+* Criar uma wiki com instruções detalhadas para diferente tipos de documentos e situações. (em progresso)
 	* ~~[Verificar a tradução das categorias de documentos no Zotero em português para colocar na documentação](https://github.com/virgilinojuca/csl-abnt/wiki/Equival%C3%AAncia-de-categorias-de-documentos)~~.
 	* ~~[Verificar a tradução dos atributos de documentos no Zotero em português para colocar na documentação](https://github.com/virgilinojuca/csl-abnt/wiki/Equival%C3%AAncia-de-campos-e-atributos)~~.
 * Testar cada exemplo da norma, para abranger todos os tipos de referências ainda não suportados.
