@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
-  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>ABNT NBR 6023:2018 – Citação numérica</title>
     <title-short>ABNT–num</title-short>
@@ -11,8 +10,13 @@
       <name>Jucá Costa</name>
       <email>virgilino.neto@itec.ufpa.br</email>
     </author>
+    <contributor>
+      <name>Antenor Aguiar C. A. Matos</name>
+      <email>antenoraguiarcam@gmail.com</email>
+      <uri>antenoraguiar.com.br</uri>
+    </contributor>
     <category citation-format="numeric"/>
-    <updated>2020-10-01T19:16:03+00:00</updated>
+    <updated>2023-07-17T17:20:57+00:00</updated>
     <rights>v0.15 (2020-10-01)</rights>
     <category/>
   </info>
@@ -30,13 +34,13 @@
       <term name="month-10" form="short">out.</term>
       <term name="month-11" form="short">nov.</term>
       <term name="month-12" form="short">dez.</term>
-      <term name="editor" form="short"></term>
+      <term name="editor" form="short"/>
       <term name="container-author" form="short">
         <single/>
         <multiple/>
       </term>
-      <term name="collection-editor" form="short"></term>
-      <term name="editorial-director" form="short"></term>
+      <term name="collection-editor" form="short"/>
+      <term name="editorial-director" form="short"/>
     </terms>
   </locale>
   <macro name="secondary-contributors">
@@ -113,12 +117,18 @@
   </macro>
   <macro name="url">
     <group delimiter=". ">
-      <text variable="URL" prefix="Disponível em: "/>
-      <date variable="accessed" prefix="Acesso em: ">
-        <date-part name="day" suffix=" "/>
-        <date-part name="month" form="short" text-case="lowercase" suffix=" "/>
-        <date-part name="year"/>
-      </date>
+      <group>
+        <text term="available at" text-case="capitalize-first" suffix=": "/>
+        <text variable="URL"/>
+      </group>
+      <group>
+        <text term="accessed" text-case="capitalize-first" suffix=": "/>
+        <date variable="accessed">
+          <date-part name="day" suffix=" "/>
+          <date-part name="month" form="short" text-case="lowercase" suffix=" "/>
+          <date-part name="year"/>
+        </date>
+      </group>
     </group>
   </macro>
   <macro name="title">
@@ -691,6 +701,45 @@
               <text macro="publisher+issued"/>
               <text macro="genre" suffix=". "/>
               <text macro="identifier"/>
+              <text macro="url"/>
+            </group>
+          </else-if>
+          <else-if type="motion_picture song" match="any">
+            <group delimiter=". " suffix=".">
+              <choose>
+                <if type="motion_picture" match="any">
+                  <text variable="title" text-case="capitalize-first" font-weight="normal"/>
+                  <group>
+                    <text term="director" text-case="capitalize-first" suffix=": "/>
+                    <names variable="director" delimiter=", ">
+                      <name and="text" et-al-min="4"/>
+                    </names>
+                  </group>
+                  <choose>
+                    <if match="any" variable="script-writer">
+                      <group>
+                        <text term="script-writer" text-case="capitalize-first" suffix=": "/>
+                        <names variable="script-writer"/>
+                      </group>
+                    </if>
+                  </choose>
+                </if>
+                <else-if type="song" variable="collection-title" match="all">
+                  <text macro="author"/>
+                  <text variable="title" text-case="capitalize-first"/>
+                  <group>
+                    <text term="in" text-case="capitalize-first" font-style="italic" suffix=": "/>
+                    <text variable="collection-title" text-case="capitalize-first" font-weight="bold"/>
+                  </group>
+                  <text value=""/>
+                </else-if>
+                <else-if type="song" match="all">
+                  <text macro="author"/>
+                  <text macro="title"/>
+                </else-if>
+              </choose>
+              <text macro="place+publisher+date"/>
+              <text variable="dimensions"/>
               <text macro="url"/>
             </group>
           </else-if>
