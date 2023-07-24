@@ -16,8 +16,8 @@
       <uri>antenoraguiar.com.br</uri>
     </contributor>
     <category citation-format="author-date"/>
-    <updated>2023-07-17T17:06:35+00:00</updated>
-    <rights>v0.15 (2020-10-01)</rights>
+    <updated>2023-07-24T14:35:12+00:00</updated>
+    <rights>v0.17 (2023-07-24)</rights>
     <category/>
   </info>
   <locale xml:lang="pt-BR">
@@ -102,8 +102,8 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" font-variant="normal" font-weight="normal" delimiter="" and="symbol" delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all">
-        <name-part name="family" text-case="uppercase"/>
+      <name form="short" font-variant="normal" font-weight="normal" delimiter="" and="text" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". " name-as-sort-order="all">
+        <name-part name="family" text-case="capitalize-first" font-style="normal"/>
       </name>
       <et-al font-style="italic"/>
       <substitute>

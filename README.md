@@ -16,6 +16,8 @@ Para edição do estilo, utilizo o utilitário online [Visual CSL Editor](https:
 
 * __Estilo refeito quase do zero conforme a norma de 2018:__ Não há mais `<>` nos endereços de sites, termos em latim ("_et al._", "_In_", "_S. l._", "_s. d._"...) estão em itálico, além de outras novidades introduzidas nessa norma nova.
 
+* __Adequação parcial à norma NBR 10520:2023:__ A nova norma estabelece o itálico para termos em latim não só nas referências, mas também na citação. Fixa ainda a capitalização apenas da primeira letra e não de todo nome do autor citado, como na norma original de 2002.
+
 * __O estilo procura utilizar o máximo possível dos campos estabelecidos pela Citation Style Language__, por mais que [não apareçam claramente disponíveis para preenchimento no Zotero](https://www.zotero.org/support/kb/item_types_and_fields#citing_fields_from_extra), a fim de obter referências o mais completas e parecidas possíveis com o especificado pela norma.
 
 	* Exemplo: quando o documento é de autoria de algum órgão público, este pode ser colocado no campo `authority`, assim como o ente federativo ou país deve ser colocado no campo de autor mesmo.
@@ -64,3 +66,4 @@ O arquivo pode ser baixado nos [releases](https://github.com/virgilinojuca/csl-a
 * Testar cada exemplo da norma, para abranger todos os tipos de referências ainda não suportados.
 	* ~~[Decidir aplicação de cada categoria do Zotero](https://github.com/virgilinojuca/csl-abnt/wiki/Equival%C3%AAncia-de-categorias-de-documentos)~~.
 * Criar uma versão com citação no sistema numérico.
+* Atualizar completamente para a NBR 10520:2023
