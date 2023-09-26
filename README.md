@@ -1,5 +1,5 @@
 # CSL da ABNT para Zotero
-Estilo de citação em Citation Style Language (CSL), atualizado conforme padrões da ABNT de 2018 (NBR 6023:2018 e NBR 10.520:2002), compatível com Zotero.
+Estilo de citação em Citation Style Language (CSL), atualizado conforme padrões da ABNT de 2023 (NBR 6023:2018 e NBR 10520:2023), compatível com Zotero.
 
 O estilo é desenvolvido por [@virgilinojuca](https://github.com/virgilinojuca) (com contribuições de [@AAguiarCAM](https://github.com/AAguiarCAM)) para uso pessoal, portanto com muitas decisões de gosto próprio. Provavelmente outros encontrarão limitações (mais sobre isso abaixo), mas contribuições são bem vindas.
 
